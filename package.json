@@ -1,0 +1,14 @@
+{
+  "name": "gatsby-client-routing-issue",
+  "description": "Gatsby Client Routing Issue",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "gatsby": "^1.9.218"
+  }
+}
