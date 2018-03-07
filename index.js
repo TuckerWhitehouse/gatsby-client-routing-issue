@@ -4,11 +4,11 @@ const app = express()
 const root = __dirname
 
 app.get('/some-custom-route', (req, res) => {
-  res.sendFile('public/page1.html', { root })
+  res.sendFile('public/page1/index.html', { root })
 })
 
 app.get('/another-custom-route', (req, res) => {
-  res.sendFile('public/page2.html', { root })
+  res.sendFile('public/page2/index.html', { root })
 })
 
 app.use(express.static('public'))

@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "express": "^4.16.2",
-    "gatsby": "^1.9.218"
+    "gatsby": "^1.9.225",
+    "gatsby-plugin-react-helmet": "^2.0.6",
+    "react-helmet": "^5.2.0"
   }
 }
